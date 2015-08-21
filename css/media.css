@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 1220px){
+    .browsers ul > li > a > img{
+        height:90%;
+        width:90%;
+    }
+    .browsers > ul > li{
+        margin:auto 4%;
+    }
+    .mid-header span{
+        font-size:1.8em;
+    }
+    .browers > ul{
+        min-width:800px;
+    }
+    .min-large{
+        min-width:800px;
+    }
+
+    p{
+        font-size:0.9em;
+    }
+    h1{
+        font-size:1.5em; 
+    }
+    h2{
+        font-size:1.3em;
+    }
+    h3{
+        font-size:1.14em; 
+    }
+    h4{
+        font-size:1.1em;
+
+    }
+}
+
+@media screen and (min-width:1450px){
+    .section{
+        padding-bottom:1%;
+    }
+    .about-us .panel{
+        height:auto;
+        padding:4% 0%;
+    }
+    .about-us  .panel p{
+        line-height:28px;
+    }
+    .about-us  .panel img{
+        width:190px;
+        height:275px;
+    } 
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    input[type=date], input[type=time], input[type=datetime-local], input[type=month] {
+        line-height: 34px;
+    }
+    input[type=date].input-sm, input[type=time].input-sm, input[type=datetime-local].input-sm, input[type=month].input-sm, .input-group-sm input[type=date], .input-group-sm input[type=time], .input-group-sm input[type=datetime-local], .input-group-sm input[type=month] {
+        line-height: 30px;
+    }
+    input[type=date].input-lg, input[type=time].input-lg, input[type=datetime-local].input-lg, input[type=month].input-lg, .input-group-lg input[type=date], .input-group-lg input[type=time], .input-group-lg input[type=datetime-local], .input-group-lg input[type=month] {
+        line-height: 46px;
+    }
+}

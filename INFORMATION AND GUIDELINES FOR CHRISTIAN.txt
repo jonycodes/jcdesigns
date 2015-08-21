@@ -1,0 +1,35 @@
+Hello Christian,
+
+Here's the file I made a couple changes. I like this background way better it's more appealing and it gives a really cool effect to the website.
+
+Here's the breakdown of the website: 
+
+<header>
+<navegation-bar(Static Top)>
+<browers panel>: Links to each of the different Web Browers. It still missing an explenation panel when hover over. 
+<quote> Just a small quote about design
+</header>
+
+<main>
+<about-us>This section talks about us
+<services> This section describes our services
+</main>
+
+<footer>
+<contact-us> 
+<Copyright Section>
+<footer>
+
+I'm still working on making the website mobile friendly. 
+It's not hard to do but it's kinda tedious work and a lot of testing. The way I've learned it's by using media querries
+ for different type of screen and sizes.
+
+I made the services section, the sizing is not good because it’s fixed with pixels we need to change that with media query. Please create the contact section however you want it. At this point I just want to finish this website for now until we decide to add more features later. 
+
+WE need to finish the <Services Section and the whole <footer> Section
+
+The main files are Index.html and Style.css. All the images are on the image folder. You can ignore any other file,
+ however if you need anything you can copy from the bootstrap.css file
+ (I don't recommend doing this since it has a lot of crap that we don't need and it cost speed when loading the website). 
+
+!!!!LET ME KNOW IF YOU HAVE ANY QUESTIONS, CONCERNS OR POINTERS TO IMPROVE THE WEBSITE!!!!
