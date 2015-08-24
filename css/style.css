@@ -37,9 +37,9 @@ html {
 body {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
     font-variant: normal;
-    font-weight: 400;
-    line-height: 16.7999992370605px;
-    font-size:20px;
+    font-weight: 100;
+    line-height: 18px;
+    font-size:18px;
     display: block;
     min-width:1100px;
     margin:0px;
@@ -52,9 +52,7 @@ header{
     background-image: url("../images/04.jpg");
     background-repeat: no-repeat;
     padding-top: 10%;
-    padding-bottom: 4%;
- 
- 
+    padding-bottom: 10%;
 }
 
 main {
@@ -79,6 +77,9 @@ summary
     display: block;
 }
 
+input, textarea, keygen, select, button{
+	 font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
 form{
     display:inline-block;
 }
@@ -109,20 +110,23 @@ a{
     text-decoration:none;
     background-color:transparent;}
 h1{
-    font-size: 1.7em;
+    font-size: 1.65em;
 }
 h2{
     font-size: 1.5em;
 }
 h3{
-    font-size: 1.125em;
+    font-size: 1.135em;
 }
 h4{
-    font-size: 1.17em;
+    font-size: 1.07em;
 }
 p{
-    font-size:1.05em;
+    font-size:.9em;
     color:grey;
+}
+i{
+	font-size:0.9em;
 }
 h1,
 h2,
@@ -130,6 +134,7 @@ h3,
 h4,
 h5{
      color:rgba(0,0,0,0.8);
+     font-weight:100;
 }
 .form-control[disabled],
 .form-control[readonly],
@@ -192,7 +197,7 @@ input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-se
 }
 fieldset {
     padding: .35em .625em .75em;
-    margin: 0 2px;
+    margin: 2px;
     border: 1px solid #c0c0c0;
 }
 legend {
@@ -224,18 +229,15 @@ img {
 
 
 .about-us{
-    padding:5% 13%;
-    border-top:3px solid grey;
+    padding:5%;
+    border-top:5px solid grey;
     border-bottom:3px solid grey;
     display:table-cell;
     vertical-align:middle;
     background-color:rgba(248, 248, 255, 0.5); 
 }
 
-.section h1{
-    margin:2% 1% 1% 1%;
-    text-align:center;
-}
+
 .about-us .panel{
     height:auto;
 	padding:2% 0%;
@@ -246,7 +248,7 @@ img {
 .about-us .panel p{
     line-height:24px;
 }
-.about-us  .panel h2{
+.about-us  .panel h3{
     margin-top:3%;
     margin-bottom:3%;
 }
@@ -254,7 +256,7 @@ img {
 .light-black{
     color:rgba(0,0,0,0.8);
 }
-.about-us .panel h3{
+.about-us .panel h4{
     margin-top:2%;
     margin-bottom:1.5%;
 }
@@ -277,6 +279,9 @@ img {
 .text-center{
     text-align:center;
 }
+.text-left{
+ text-align:left;
+}
 .right{
     float:right;
     clear:left;
@@ -285,11 +290,35 @@ img {
     float:left;
     clear:right;	
 }
-.browsers{
+
+
+.main-logo img{
+margin-left:auto;
+margin-right:auto;
+display:block;	
+}
+
+
+.main-logo a,
+.main-logo a:visited{
+    font-size:1.3em;
+    margin-top:8%;  
+}
+
+.main-logo a:hover{
+  color:rgb(55, 93, 126);
+  border-color:rgb(55, 93, 126);
+}
+ 
+
+
+
+/*.browsers{
     position:relative;
     clear:both;
     margin-top: 12%;
     margin-bottom: 20%;
+
 }
 
 .browsers ul{
@@ -324,8 +353,8 @@ img {
     text-shadow:0 0 8px white;
     opacity: 1;
 }
+*/
 
-	
 .search-bar{
     width:12%;
     height:25px;
@@ -336,30 +365,31 @@ img {
     border-top:2px solid grey;
     background-image: url("../images/05.jpg");
     background-size:100% 100%;
-    height:800px;
-    text-align: center;
-}
-.contactform{
-    font-size: 42px;
-    color: white;
-    display: inline-block;
-    
+    padding:4%;
+    }
 
+.contact-form{
+	top:5%;
+   margin:5%;
 }
 
-.contactform > form> fieldset {
-    margin-top: 100px;
+.contact-form > form >  fieldset {
     background: rgba(0,0,0,.43);
+    padding:2% 4%;
 }
-.contactform > form > fieldset>input{
-    font-size: 42px;
-    margin: 14px;
+.contact-form h4{
+	display:inline-block;
+	color:white;
+}
+.contact-form > form > fieldset > input{
+    margin: 1% auto;  
 }
 
 .button{
-    background: rgba(0,0,0,.1);
-    border-color: white;
-    color: white;
+    border:3px solid rgba(255,255,255,0.5);
+    padding:8px;
+    color:white;
+    background-color:transparent;
 }
 .glow{
     text-shadow:0 0 15px black;
@@ -374,21 +404,17 @@ img {
 }
 .mid-header{
     font-family: 'Century Gothic', CenturyGothic, AppleGothic,    sans-serif;
-    font-size:2em;
-    font-weight:bold;
-    line-height:40px;
-    margin-bottom:1.5%;
-    
+    font-size:1.2em;
     text-align:center;
+    line-height:1.2em;
 }
 
 .shadow{
     text-shadow:1px 1px 5px black;	
 }
 .quote-container  i{
-    font-size:1.2em;
     float:right;
-    padding:0px 15%;
+    margin:1.5% 20%;
 }
 
 
@@ -398,7 +424,9 @@ img {
 .max-medium{
     max-width:900px;
 }
-
+.max-small{
+	max-width:400px;
+}
 .min-large{
     min-width:1000px}
 .min-medium{
@@ -513,35 +541,25 @@ img {
     font-weight:500;
 }
 .services{
-    display: block;
-    vertical-align: middle;
-    padding:6% 13% 6% 13%;
-    vertical-align: middle;
+    padding:6%;
     background-color:rgba(248, 248, 255, 0.5);//(ghost-white)
 }
 .services *{
     //border:1px solid black;
-    
 }
-.services-container{
-   float:left;
-   min-width: 1400px;
-   min-height: 100%;
-}
-.services .panel {
-    display: inline-block;  
-    margin:3.65%;
+
+.services .panel { 
+    margin:1% 6%;
     padding:1%;
-    float:left;
-    min-width:350px;
-    border: 2px solid #908A74;
     border-radius: 5px;
-   // background-color: rgba(61, 127, 185, 0.53);
-    height: 500px;
     
+}
+.side-borders{
+	border-left:2px solid #908A74;
+	border-right:2px solid #908A74;
 }
 .services-h3-container{
-    min-height: 50px;
+    min-height:40px;
     border-bottom: 2px solid #908A74;
 }
 .services  span {
@@ -574,30 +592,11 @@ img {
 }
 
 .form-control {
-    width: 100%;
-    height: 100%;
-    padding: 6px 12px;
-    font-size: 12px;
-    line-height: 1.42857143;
-    color: black;
-    background-color: rgba(255,255,255,0.8);
-    background-image: none;
-    border: 1px solid  rgb(55, 93, 126);
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    position:relative;
+   
 
 }
 .form-control:focus {
-    border-color: #66afe9;
-    background-color:rgba(255,255,255,0.8);
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+   
 }
 
 .form-control::-moz-placeholder {
@@ -615,22 +614,32 @@ img {
     margin-bottom: 15px;
 }
 
-.panel-footer {
-    display:none;
+.footer {
     padding: 8px 15px;
     background-color: rgba(160, 172, 184, 1);
-    border-top: 1px solid #ddd;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
-    text-align:center;
     margin-bottom: 0;
     border-width: 1px 0 0;
-    position: fixed;
+    position: static;
     bottom: 0;
     right: 0;
     left: 0;
 }
-.panel-footer span{
-    color:black;
-    font-size:12px;
+
+.side-padding{
+	padding-right:13%;
+	padding-left:13%;
+}	
+
+.align-center{
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+}
+.align-left{
+	display:table;
+	margin-right:auto;
+}
+.align-right{
+	display:table;
+   margin-left:auto;
 }
