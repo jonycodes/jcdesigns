@@ -35,7 +35,18 @@ color-tempale: light-grey rgba(214, 213, 213),(208, 202, 202) ; blue rgb(55, 93,
                     
                 </nav>
                 
-                <div class ="min-medium browsers">
+
+
+                	<div class='main-logo'>
+                		<img class='center' src="images/main-logo.png"/>
+                		<div class="quote-container min-medium cursor-default">
+                    <span class='shadow mid-header'>We can build, modify and maintain a quality Website for a low rate! <br> We adjust to your budget!</span>
+                </div>    
+                       <a class='text-center align-center button' href="#services">Read More</a>
+                	</div>
+
+
+                <!---<div class ="min-medium browsers">
                     <ul class =' max-large'>
                         <li><a href ='https://www.google.com/chrome/browser/desktop/index.html' target="blank"> <img src = "images/g.png">
                                 <h4>Chrome</h4>		
@@ -47,24 +58,21 @@ color-tempale: light-grey rgba(214, 213, 213),(208, 202, 202) ; blue rgb(55, 93,
                         <li><a href ='https://www.mozilla.org/en-US/firefox/new/' target="blank"> <img src = "images/f.png"><h4>Firefox</h4></a> </li>
                         <li><a href ='http://www.apple.com/safari/' target="blank"> <img src = "images/s.png"><h4>Safari</h4></a> </li>
                     </ul>    
-                </div>
-                <div class="quote-container min-medium cursor-default">
-                    <span class='shadow mid-header'>"To design is to communicate clearly by whatever means you can control or master."</span><i class='shadow'>
-                        Milton Glaser</i>
-                </div>         
+                </div>-->
+                    
 
             </div>
         </header>
         <main>
-            <div class = "about-us section height" id="about-us">
-                <h1>WHO ARE WE?</h1>
+            <div class = "about-us section text-center side-padding" id="about-us">
+                <h2>WHO ARE WE?</h2>
                 <div class="panel left" style="border-bottom:2px solid rgba(0,0,0,0.7)">
                     <img class="left" src="images/joan.jpg"/> 
                     <div class="left"> 
-                        <h2>Joannier Pinales</h2>
-                        <h3>Front End Developer</h3>
-                        <h3>Background:</h3>
-                        <p>Joannier Pinales is a computer science undergraduate at 
+                        <h3 class='text-left'>Joannier Pinales</h3>
+                        <h4 class='text-left'>Front End Developer</h4>
+                        <h4 class='text-left'>Background:</h4>
+                        <p class='text-left'>Joannier Pinales is a computer science undergraduate at 
                             Florida International University. JAVA Tutor during the 2014-2015 Academic year. Currently learning and mastering HTML5, CSS3, JQuery and Javascript web languages. Passionate about computer software and graphic design.
                         </p> 
                     </div>
@@ -72,55 +80,54 @@ color-tempale: light-grey rgba(214, 213, 213),(208, 202, 202) ; blue rgb(55, 93,
                 <div class="panel right">
                     <img class="right" src="images/Christian.jpg"/> 
                     <div class="right"> 
-                        <h2 class="text-right">Christian Tennant</h2>
-                        <h3 class="text-right">Front End Developer:</h3>
-                        <h3 class="text-right">Background:</h3>
+                        <h3 class="text-right">Christian Tennant</h3>
+                        <h4 class="text-right">Front End Developer</h4>
+                        <h4 class="text-right">Background:</h4>
                         <p class="text-right">Christian Tennant is an Electrical Engineering graduate of Florida International University. Christian has a proven track record with software and web development and has a keen eye for problem solving.</p><p class = 'text-right'>Skills: Java, CSS, HTML, Javascript, JQuery, PHP, MySQL, Android</p>   
                         <br/></div>
                 </div>
             </div>
-            <div class = "services text-center" id="services">
-                <h1>OUR SERVICES</h1>
-                <div class="services-container">
-                <div class="panel">
-                    <div class="services-h3-container"><h3>Personal Websites</h3></div>  
-                    <p>In JC-Designs we focus on top quality representation! We beleive that your site is the most effective way to brand yourself and your services</p>
+            <div class = "services text-center side-padding" id="services">
+                <h2>SERVICES WE OFFER</h2>
+                <div class="services-container" +>
+                <div class="panel  left">
+                    <div class="services-h3-container "><h3>Personal Websites</h3></div>  
+                    <p class='max-small'>In JC-Designs we focus on top quality representation! We beleive that your site is the most effective way to brand yourself and your services</p>
                 </div>
                     
-                <div class="panel">
+                <div class="panel max-small right" >
                     <div class="services-h3-container"><h3>Front End Development</h3></div>
                     <p>In JC-Designs we can modify your site to keep up with the ever evolving style of the net. Or design a look and feel from scratch that you can call your own!</p>
                 </div>
-                <div class="panel">
+                <div class="panel max-small left" >
                     <div class="services-h3-container"><h3>Ecommerce Websites</h3></div>
                     <p>In JC-Designs we focus on fast and secure implementations to drive your business and facilitate your economic growth.</p>
                 </div>
                 </div>
-                <span class="clear"><h1>We can build, modify and maintain a quality Website for low rates! <br> We adjust to your budget!</h1</span>
+                <span class="clear"><h1></h1></span>
             </div>
-
         </main>
 
 
-        <div class='contact-us section height' id="contact-us">
-        
-            <div class='contactform'>
-            <form name='contact' method='post' action='php/contact.php' onsubmit='return validate()'>
-                <fieldset class='clear' name='title'>
-                    <legend>Contact Us</legend>
-                        Name: <input id="name"class='form' name='name' type='text'/><br /><br />
-                        E-Mail: <input class='form' name='email' type='text'/><br /><br />
-                        Phone: <input class='form' name='phone' type='text' placeholder='Optional'/><br /><br />
-                    <h3 style="color: white;">Message</h3> 
-                    <textarea placeholder="Your message here" cols="90" rows="8" name='message' type='text'></textarea><br />
-                    <input  type="submit" class="button" value="Submit"/>
+        <div class='contact-us section text-center side-padding' id="contact-us">
+          <h2 style='color:white; margin:3%'>CONTACT US</h2>
+            <div class='contact-form text-left align-right '>
+            <form name='contact' class="align-center" method='post' action='php/contact.php' onsubmit='return validate()'>
+                <fieldset class='clear align-center' name='title'>
+                    <legend class="align-center"><h3 style="color:white">E-Mail</h3></legend>
+                        <h4>Name:</h4> <input id="name"class='form' name='name' type='text'/><br />
+                        <h4>E-Mail:</h4> <input class='form' name='email' type='text'/><br />
+                        <h4>Phone:</h4> <input class='form' name='phone' type='text' placeholder='Optional'/><br />
+                    <h4 style="color: white; display:block;">Message</h4> 
+                    <textarea placeholder="Your message here" cols="60" rows="8" name='message' type='text'></textarea><br />
+                    <input  type="submit" class="button align-center" value='Submit'/>
                 </fieldset>
                
             
             </form>
                 
             </div>
-            
+             
         </div>
 
 
