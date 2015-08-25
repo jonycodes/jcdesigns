@@ -6,17 +6,13 @@ body{
 .container1{
     width:auto; 
     text-align: center; 
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
-}
+    }
 
 .button{
     border-radius: 90%; height:250; width: 250;
     background: rgba(0,0,0,.5);
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
     font-size: 40px;
-    color: navajowhite;
-    
-        
+    color: navajowhite;       
 }
 
 .button > a:visited, .button > a:link{ 
