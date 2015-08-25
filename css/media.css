@@ -1,8 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
 
+@media screen and (max-width: 1220px){
+    
+  
+}
 
-
+@media screen and (min-width:1450px){
+    .section{
+        padding-bottom:1%;
+    }
+    .about-us .panel{
+        height:auto;
+        padding:4% 0%;
+    }
+    .about-us  .panel p{
+        line-height:28px;
+    }
+    .about-us  .panel img{
+        width:190px;
+        height:275px;
+    } 
+}
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     input[type=date], input[type=time], input[type=datetime-local], input[type=month] {
         line-height: 34px;
