@@ -49,6 +49,7 @@ body {
 header{
     /*background-color:rgba(76,207,179,.1);*/
   display:-webkit-box !important;
+  max-height: 800px !important;
 }
 
 main {
@@ -639,4 +640,14 @@ display:block;
 .align-right{
 	display:table;
    margin-left:auto;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+   max-height:820px !important;
+width:100%;   
+    
 }

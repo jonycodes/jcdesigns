@@ -39,7 +39,9 @@ function validate() {
     
     }
 
-$(document).ready(function () {
+
+
+function hoover () {
         
     $('.mid-header').hover(function () {
         $(this).addClass("glow");
@@ -55,8 +57,7 @@ $(document).ready(function () {
                 $(this).animate({top: "0px"}, "fast", "linear");
                 $(this).removeClass("navbar-animate");
             });
-    
-    
-    
-   
-});
+      
+}
+
+$(document).ready(function(){hoover();});
