@@ -48,11 +48,7 @@ body {
 
 header{
     /*background-color:rgba(76,207,179,.1);*/
-    background-size:100% 100%; 
-    background-image: url("../images/04.jpg");
-    background-repeat: no-repeat;
-    padding-top: 10%;
-    padding-bottom: 10%;
+  display:-webkit-box !important;
 }
 
 main {
@@ -574,6 +570,7 @@ display:block;
 }
 .logo-container{
     padding:7px 2%;
+  
 }
 
 .logo {
