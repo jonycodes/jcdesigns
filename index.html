@@ -84,46 +84,38 @@ color-tempale: light-grey rgba(214, 213, 213),(208, 202, 202) ; blue rgb(55, 93,
             </section>
             <section class = "services text-center side-padding" id="services">
                 <h2>SERVICES WE OFFER</h2>
-                <div class="services-container">
-                    <div class="panel  left">
+                
+                    <div class="panel max-small clearfix align-left height-min">
                         <div class="services-h3-container "><h3>Personal Websites</h3></div>  
                         <p class='max-small'>In JC-Designs we focus on top quality representation! We beleive that your site is the most effective way to brand yourself and your services</p>
                     </div>
-
-                    <div class="panel max-small right" >
+ 
+                    <div class="panel max-small clearfix align-right height-min" >
                         <div class="services-h3-container"><h3>Front End Development</h3></div>
                         <p>In JC-Designs we can modify your site to keep up with the ever evolving style of the net. Or design a look and feel from scratch that you can call your own!</p>
                     </div>
-                    <div class="panel max-small left" >
+                    <div class="panel max-small clearfix align-left height-min" >
                         <div class="services-h3-container"><h3>Ecommerce Websites</h3></div>
                         <p>In JC-Designs we focus on fast and secure implementations to drive your business and facilitate your economic growth.</p>
                     </div>
+                
+            </section>
+            <section class='contact-us section text-center side-padding' id="contact-us">
+                <h2 style='color:white; margin:3%'>CONTACT US</h2>
+                <div class='contact-form text-left align-center '>
+                    <form name='contact' class="align-center" method='post' action='php/contact.php' onsubmit='return validate()'>
+                        <fieldset class='clear align-center' name='title'>
+                            <legend class="align-center"><h3 style="color:white">E-Mail</h3></legend>
+                            <h4>Name:</h4> <input id="name"class='form' name='name' type='text'/><br />
+                            <h4>E-Mail:</h4> <input class='form' name='email' type='text'/><br />
+                            <h4>Phone:</h4> <input class='form' name='phone' type='text' placeholder='Optional'/><br />
+                            <h4 style="color: white; display:block;">Message</h4>
+                            <textarea placeholder="Your message here" cols="40" rows="8" name='message' type='text'></textarea><br />
+                            <input  type="submit" class="button align-center" value='Submit'/>
+                        </fieldset>
+                    </form>
                 </div>
             </section>
-        </main>
-
-
-        <section class='contact-us section text-center side-padding' id="contact-us">
-            <h2 style='color:white; margin:3%'>CONTACT US</h2>
-            <div class='contact-form text-left align-right '>
-                <form name='contact' class="align-center" method='post' action='php/contact.php' onsubmit='return validate()'>
-                    <fieldset class='clear align-center' name='title'>
-                        <legend class="align-center"><h3 style="color:white">E-Mail</h3></legend>
-                        <h4>Name:</h4> <input id="name"class='form' name='name' type='text'/><br />
-                        <h4>E-Mail:</h4> <input class='form' name='email' type='text'/><br />
-                        <h4>Phone:</h4> <input class='form' name='phone' type='text' placeholder='Optional'/><br />
-                        <h4 style="color: white; display:block;">Message</h4> 
-                        <textarea placeholder="Your message here" cols="60" rows="8" name='message' type='text'></textarea><br />
-                        <input  type="submit" class="button align-center" value='Submit'/>
-                    </fieldset>
-
-
-                </form>
-
-            </div>
-
-        </section>
-
-
-    </body>
-</html>
+          </main>
+        </body>
+    </html>

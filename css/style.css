@@ -1,4 +1,4 @@
-/*
+*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
@@ -32,7 +32,7 @@ body {
     line-height: 18px;
     font-size:18px;
     margin:0px;
-    // border: 1px solid black;
+    position: relative;
 }
 
 header{
@@ -367,11 +367,21 @@ display:block;
     padding:6%;
     background-color:rgba(248, 248, 255, 0.5);//(ghost-white)
 }
-.services *{
-    //border:1px solid black;
+.clearfix:after{
+    content:" ";
+    display:table;
+    clear:both;
+    visibility:hidden;
+}
+.clearfix{
+    display:inline-block;
 }
 
-.services .panel { 
+.height-min{
+    min-height:200px
+}
+
+.services .panel {
     margin:1% 6%;
     padding:1%;
     border-radius: 5px;
@@ -439,11 +449,11 @@ display:block;
 }
 .align-left{
 	display:table;
-	margin-right:auto;
+	margin-right:auto !important;
 }
 .align-right{
 	display:table;
-   margin-left:auto;
+   margin-left:auto !important;
 }
 
 .img-responsive,
